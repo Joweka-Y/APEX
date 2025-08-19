@@ -1,0 +1,79 @@
+name: apex
+description: A modern car trading app with AI-powered chatbot assistance.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  dio: ^5.3.2
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  cached_network_image: ^3.3.0
+  flutter_staggered_grid_view: ^0.7.0
+  shimmer: ^3.0.0
+  intl: ^0.18.1
+  url_launcher: ^6.2.1
+  image_picker: ^1.0.4
+  google_generative_ai: ^0.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.7
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+# Flutter Launcher Icons configuration
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon/icon.png"
+  
+  web:
+    generate: true
+    image_path: "assets/icon/icon.png"
+    background_color: "#1a1a1a"
+    theme_color: "#6b46c1"
+  windows:
+    generate: true
+    image_path: "assets/icon/icon.png"
+    icon_size: 256 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/icon/icon.png"
+  # Make icon fill entire space
+  adaptive_icon_background: "#1a1a1a"
+  adaptive_icon_foreground: "assets/icon/icon.png"
+  remove_alpha_ios: true
+
+# Flutter Native Splash configuration
+flutter_native_splash:
+  # Background color
+  color: "#1a1a1a"
+  
+  # Image to display
+  image: assets/icon/icon.png
+  
+  # Branding
+  branding: assets/icon/icon.png
+  branding_mode: bottom
+  
+  # Full screen splash
+  fullscreen: true
+
