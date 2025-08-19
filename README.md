@@ -383,21 +383,6 @@ This project is created for **educational purposes** as a college project.
 
 ---
 
-## 📞 Support & Community
-
-### **Getting Help**
-- 📖 **Documentation** - Check this README first
-- 🐛 **Bug Reports** - Create an issue with detailed information
-- 💡 **Feature Requests** - Suggest new ideas and improvements
-- 💬 **Discussions** - Join community conversations
-
-### **Contact Information**
-- **GitHub Issues**: [Create an issue](https://github.com/yourusername/apex/issues)
-- **Email**: your.email@example.com
-- **Project Website**: [Coming Soon]
-
----
-
 <div align="center">
 
 **Made with ❤️ by the APEX Development Team**

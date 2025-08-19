@@ -4,7 +4,7 @@ import 'package:flutter/foundation.dart';
 class GeminiService {
   // TODO: Replace with your actual Gemini API key
   // Get your API key from: https://makersuite.google.com/app/apikey
-  static const String _apiKey = 'AIzaSyDaxQ9mFhZQsnnbCOw_9dDuiTyQgEoV9U4';
+  static const String _apiKey = 'your_api_key_here';
 
   static const String _modelName = 'gemini-1.5-flash';
 
